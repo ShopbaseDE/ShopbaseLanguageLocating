@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="select" required="true">
+            <name>useSubshops</name>
+            <label lang="en">Include Subshops</label>
+            <label lang="de">Subshops einbinden</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>1</value>
+                    <label lang="en">Yes</label>
+                    <label lang="de">Ja</label>
+                </option>
+                <option>
+                    <value>0</value>
+                    <label lang="en">No</label>
+                    <label lang="de">Nein</label>
+                </option>
+            </store>
+        </element>
+        <element type="select" required="true">
+            <name>showSelection</name>
+            <label lang="en">Show Shop selection</label>
+            <label lang="de">Shopauswahl einblenden</label>
+            <value>1</value>
+            <store>
+                <option>
+                    <value>1</value>
+                    <label lang="en">Yes</label>
+                    <label lang="de">Ja</label>
+                </option>
+                <option>
+                    <value>0</value>
+                    <label lang="en">No</label>
+                    <label lang="de">Nein</label>
+                </option>
+            </store>
+        </element>
+        <element type="text" required="true">
+            <name>fallback</name>
+            <label lang="en">Default fallback</label>
+            <label lang="de">Standard Fallback</label>
+        </element>
+    </elements>
+</config>
